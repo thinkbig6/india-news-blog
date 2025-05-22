@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.ads-container {
+  margin: 20px auto;
+  text-align: center;
+}
+main {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+main img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 20px auto;
+}
+.pagination span, .pagination a {
+  padding: 10px 15px;
+  background: #ddd;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.pagination span.disabled {
+  background: #bbb;
+}
