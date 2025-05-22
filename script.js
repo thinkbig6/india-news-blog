@@ -1,5 +1,5 @@
 function startTimer() {
-  let timeLeft = 3;
+  let timeLeft = 10;
   const timerElement = document.getElementById("timer");
   const interval = setInterval(() => {
     timeLeft--;
